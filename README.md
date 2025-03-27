@@ -27,8 +27,31 @@ We used cosine similarity to measure how much the model’s response changed and
 - Symbols like "!" change the tone, and word order matters less.
 - Big changes to words have the largest impact, while small changes to symbols affect the tone the most.
 
-## How to Run the Notebook
-1. Open the Jupyter Notebook file (`AIPI_590_Assignment_10.ipynb`).
-2. Install the required tools:  
+
+## Installation and Setup
+
+1. **Clone the Repository**:
    ```bash
-   pip install transformers sentence-transformers matplotlib numpy
+   git clone https://github.com/johnjoel2001/XAI_in_LLMs.git
+   cd XAI_in_LLMs
+   ```
+2. Run the XAI_in_LLMs.ipynb
+3. The requirements are listed in the first cell
+
+**References**
+
+1) https://arxiv.org/abs/2405.06064
+
+2) https://medium.com/@alaeddineayadi/advanced-techniques-in-explainable-ai-xai-for-a-responsible-large-language-models-4c472fde996e
+
+**Notes**
+
+1) 
+
+```
+  perturbed_input = " ".join(perturbed)
+  perturbed_output = model(perturbed_input, max_length=50, num_return_sequences=1)[0]['generated_text']
+```
+Three three lines of code were generated using Grok on 03/26/25 at 09:00 pm.
+
+2) Apart from this, AI was not used in this notebook.
