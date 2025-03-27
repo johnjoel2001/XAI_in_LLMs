@@ -35,7 +35,7 @@ We used cosine similarity to measure how much the model’s response changed and
    git clone https://github.com/johnjoel2001/XAI_in_LLMs.git
    cd XAI_in_LLMs
    ```
-2. Run the XAI_in_LLMs.ipynb
+2. Run the `XAI_in_LLMs.ipynb`
 3. The requirements are listed in the first cell
 
 **References**
