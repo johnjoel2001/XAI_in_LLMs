@@ -1,7 +1,7 @@
 # Analysis of Prompts with XAI Techniques
 
 ## Overview
-- In this assignemnt, we use Explainable AI (XAI) methods to study how a language model (DistilGPT-2) responds to the sentence: "The quick brown fox jumps over the lazy dog!"
+- In this assignment, we use Explainable AI (XAI) methods to study how a language model (DistilGPT-2) responds to the sentence: "The quick brown fox jumps over the lazy dog!"
 - Our goal is to find out which parts of the sentence like words, symbols, or word order are most important to the model.
 
 ## Methods Used
